@@ -30,8 +30,10 @@ export default function SignUp() {
                         aria-describedby="name" placeholder="Enter your name"/>
                 </div>
                 <div className="pt-30">
-                    <label for="email" className="form-label text-lg fw-medium color-palette-1 mb-10">Email
-                        Address</label>
+                    <label for="email" className="form-label text-lg fw-medium color-palette-1 mb-10">
+Email
+                        Address
+                    </label>
                     <input type="email" className="form-control rounded-pill text-lg" id="email" name="email"
                         aria-describedby="email" placeholder="Enter your email address"/>
                 </div>
@@ -42,13 +44,17 @@ export default function SignUp() {
                 </div>
                 <div className="button-group d-flex flex-column mx-auto pt-50">
                     <a className="btn btn-sign-up fw-medium text-lg text-white rounded-pill mb-16"
-                        href="../src/sign-up-photo.html" role="button">Continue</a>
+                        href="../src/sign-up-photo.html" role="button">
+Continue
+                    </a>
                     <a className="btn btn-sign-in fw-medium text-lg color-palette-1 rounded-pill" href="../src/sign-in.html"
-                        role="button">Sign
-                        In</a>
+                        role="button">
+Sign
+                        In
+                    </a>
                 </div>
             </form>
         </div>
-    </section>
+        </section>
     )
 }

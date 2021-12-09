@@ -6,10 +6,10 @@ import Navbar from '../components/organisms/navbar';
 const Home: NextPage = function () {
   useEffect(() => {
     AOS.init();
-  }, [])
+  }, []);
   return (
     <>
-      <Navbar/>
+      <Navbar />
 
       <section className="header pt-lg-60 pb-50">
         <div className="container-xxl container-fluid">
